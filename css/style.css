@@ -1,0 +1,557 @@
+* {
+  box-sizing: border-box;
+}
+
+.league-spartan {
+  font-family: 'League Spartan', sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.league-spartan-light {
+  font-weight: 300;
+}
+.league-spartan-regular {
+  font-weight: 400;
+}
+.league-spartan-medium {
+  font-weight: 500;
+}
+.league-spartan-semibold {
+  font-weight: 600;
+}
+.league-spartan-bold {
+  font-weight: 700;
+}
+.container {
+  /* width: 1110px; */
+  max-width: 1130px;
+
+  /* background-color: #c24646; */
+  /* margin: 0 auto; */
+
+  /* margin-left: auto;
+  margin-right: auto; */
+
+  /* margin-inline: auto; */
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+  padding-inline: 10px;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+}
+button {
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+fieldset {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+.flx {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+body {
+  /* background-color: burlywood; */
+  /* background-color: rgb(90, 88, 86); */
+  margin: 0;
+  /* padding-inline: 30px; */
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 16px;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  border: 1px solid #fff;
+  display: inline-block;
+  /* text-align: center;
+  min-width: 245px;
+  height: 64px; */
+  padding-block: 25px 23px;
+  padding-inline: 50px;
+  transition: 0.5s;
+}
+a.bg-transp:hover {
+  background-color: #fff;
+  color: #111;
+}
+a.bg-black:hover {
+  background-color: #fff;
+  color: #111;
+  border-color: #111;
+}
+.section-info {
+  max-width: 445px;
+}
+
+h2 {
+  font-size: 48px;
+  line-height: 68px;
+  letter-spacing: -0.5px;
+  color: #242b37;
+}
+p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #242b37;
+}
+.section-info img {
+  margin-block-end: 55px;
+}
+.section-info h2 {
+  margin-block-end: 27px;
+  color: #d1dd21;
+}
+header {
+  /* background-color: #080a0f; */
+  margin-block-end: 20px;
+  color: #fff;
+  /* color: #ffffff;
+  color: #FFF;
+  color: #FFFFFF; */
+  background-image: url(../images/homepage/hero-bg-desktop.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+header section {
+  padding-block-start: 65px;
+  padding-block-end: 65px;
+  /* padding-block-end: 200px; */
+
+  /* padding: 65px 0;
+  padding-block: 65px; */
+  min-height: 820px;
+  /* min-height: 100vh; */
+}
+header img {
+  margin-block-end: 155px;
+}
+h1 {
+  margin-block-end: 10px;
+  font-size: 80px;
+  line-height: 80px;
+  letter-spacing: -1px;
+  max-width: 500px;
+}
+header p {
+  margin-block-end: 40px;
+  font-size: 20px;
+  line-height: 30px;
+  max-width: 445px;
+  color: #fff;
+}
+
+.main-decor-img {
+  position: absolute;
+  width: 540px;
+  height: 720px;
+}
+.bg-flow {
+  background-repeat: no-repeat;
+  max-width: 1440px;
+  margin-inline: auto;
+}
+.bg-flow-top {
+  background-image: url(../images/patterns/pattern-curve-top-right.svg);
+  background-position: left bottom;
+}
+.bg-flow-bottom {
+  background-image: url(../images/patterns/pattern-curve-top-left.svg);
+  background-position: right bottom;
+}
+.enjoy {
+  padding-block: 177px 118px;
+  position: relative;
+  margin-block-end: 270px;
+}
+.enjoy .main-decor-img {
+  top: 0;
+  left: 0;
+  transform: translateY(-12.5%);
+  box-shadow: 0px 75px 100px -50px rgba(56, 66, 85, 0.503223);
+}
+.enjoy .section-info {
+  margin-inline-start: auto;
+}
+.local {
+  padding-block: 130px 165px;
+  position: relative;
+}
+.local .main-decor-img {
+  right: 0;
+  bottom: 0;
+  transform: translateY(12.5%);
+  box-shadow: 0px 75px 100px -50px rgba(56, 66, 85, 0.503223);
+}
+.local .main-decor-img .lines {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-100%) translateX(75%);
+}
+.menu {
+  background-color: #111;
+  /* margin-block-end: 20px; */
+  padding-block: 200px 120px;
+}
+.menu .flx {
+  column-gap: 125px;
+  /* flex-wrap: wrap; */
+}
+.menu-items {
+  max-width: 540px;
+  width: 100%;
+  /* margin-inline-start: 125px; */
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding-block-start: 55px;
+}
+.menu-items article.flx {
+  column-gap: 64px;
+  padding-block-end: 24px;
+  border-block-end: 1px solid rgba(255, 255, 255, 0.15);
+  /* margin-block-end: 24px; */
+}
+.menu-items article.flx:last-of-type {
+  border-block-end: none;
+}
+.menu-items div {
+  max-width: 350px;
+  width: 100%;
+}
+.menu h2,
+.menu p {
+  color: #fff;
+}
+.menu h3 {
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -0.25px;
+  color: #ffffff;
+  margin-block-end: 6px;
+  position: relative;
+}
+.menu h3::before {
+  content: '';
+  width: 32px;
+  height: 1px;
+  background-color: #9e7f66;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateX(-200%);
+}
+.menu article {
+  max-width: 540px;
+}
+.menu article p {
+  font-size: 16px;
+  line-height: 26px;
+}
+.bg-flow-family {
+  background-image: url(../images/patterns/pattern-curve-top-right.svg);
+  background-position: left -75% top;
+}
+.family {
+  padding-block-start: 180px;
+  padding-block-end: 220px;
+  position: relative;
+}
+.family .section-info {
+  margin-inline-start: auto;
+  padding-block-start: 70px;
+  margin-block-end: 70px;
+}
+.family .main-decor-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateY(25%);
+  height: 600px;
+  box-shadow: 0px 75px 100px -50px rgba(56, 66, 85, 0.5);
+}
+.family .main-decor-img .lines {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(-25%, -50%);
+}
+
+.family a {
+  background-color: #111;
+  border-color: transparent;
+}
+.family p {
+  margin-block-end: 60px;
+}
+.family ul {
+  max-width: 445px;
+  margin-inline-start: auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  row-gap: 12px;
+}
+.family ul button {
+  color: rgba(76, 76, 76, 0.5);
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+}
+.family ul button.active {
+  color: #4c4c4c;
+  position: relative;
+}
+.family ul button.active::before {
+  content: '';
+  width: 95px;
+  height: 1px;
+  background-color: #9e7f66;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateX(-140%);
+}
+.ready {
+  background-color: #111;
+  background-image: url(../images/homepage/ready-bg-desktop.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  /* background-size: cover; */
+  padding-block: 88px;
+}
+.ready div.flx {
+  column-gap: 250px;
+  align-items: center;
+}
+.ready h2 {
+  color: #fff;
+}
+
+footer {
+  background-color: #111;
+  padding-block: 78px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 28px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+footer > div.flx {
+  justify-content: space-between;
+}
+footer div.flx div.flx {
+  column-gap: 125px;
+}
+footer p {
+  color: #fff;
+  font-size: 14px;
+  line-height: 28px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+footer address {
+  font-style: normal;
+}
+footer address a {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 28px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border: none;
+  padding: 0;
+}
+.test {
+  width: 445px;
+  color: #242b37;
+  font-family: 'League Spartan';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.test {
+  color: #00252e;
+  font-family: Poppins;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 42px;
+}
+.booking header {
+  background-image: url(../images/booking/hero-bg-desktop.jpg);
+  margin: 0;
+}
+.booking header section {
+  min-height: 600px;
+}
+.booking h1 {
+  margin-block-end: 18px;
+}
+.booking main.bg-flow {
+  background-image: url(../images/patterns/pattern-curve-bottom-right.svg);
+}
+.booking main.bg-flow section {
+  min-height: 320px;
+  position: relative;
+}
+.booking main.bg-flow section img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%);
+}
+.booking form {
+  width: 540px;
+  height: 545px;
+  background: #fff;
+  box-shadow: 0px 75px 100px -50px rgba(56, 66, 85, 0.5);
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  transform: translateY(-20%);
+  padding: 48px;
+}
+
+form * {
+  font-family: inherit;
+}
+fieldset {
+  margin-block-end: 36px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 34px;
+}
+fieldset {
+  margin-block-end: 36px;
+}
+form > div {
+  margin-block-end: 32px;
+}
+form div {
+  width: 100%;
+}
+input[name='user_name'],
+input[name='email'] {
+  width: 100%;
+  /* max-width: 444px; */
+  /* height: 43px; */
+}
+input {
+  height: 43px;
+  border-radius: 0;
+  margin: 0;
+  padding: 0;
+  border: none;
+  border-block-end: 1px solid #8e8e8e;
+  padding: 0 16px 15px;
+
+  color: #111;
+  font-size: 20px;
+  line-height: 28px;
+}
+input[name='user_name']::placeholder,
+input[name='email']::placeholder {
+  color: #111;
+  opacity: 0.5;
+}
+
+.set {
+  display: flex;
+  align-items: start;
+  justify-content: start;
+}
+label[for='month'],
+label[for='hours'] {
+  display: inline-block;
+  /* display: block; */
+  /* width: 155px; */
+  /* flex-basis: 155px; */
+
+  padding-block: 9px 6px;
+  color: #111;
+  font-size: 20px;
+  line-height: 28px;
+  flex-grow: 1;
+}
+.set input {
+  width: 80px;
+}
+.set input:last-child {
+  width: 97px;
+}
+.set select:last-child {
+  width: 97px;
+}
+.date_fields,
+.time_fields {
+  display: flex;
+  /* align-items: start; */
+  width: fit-content;
+  column-gap: 16px;
+}
+.quantity {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-block-end: 16px;
+  padding-inline: 30px;
+}
+.quantity button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.quantity div {
+  width: fit-content;
+  color: #151515;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: -0.25px;
+}
+button[type='submit'] {
+  width: 444px;
+  height: 64px;
+  background: #111;
+  color: #fff;
+  /* text-align: center; */
+  /* font-family: "League Spartan"; */
+  font-size: 17px;
+  /* font-style: normal; */
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+}
